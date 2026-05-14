@@ -16,22 +16,23 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 - **Other:** Data wrangling, EDA, regression, groupby analysis, visualization
 
 ---
-
-### 🎵 [Discogs x Spotify Music Analysis Discord Bot](https://github.com/fghlewis/INFO3510-Project2)
-**Question:** Does Discogs community data accurately reflect what audiences are actually listening to, and can audio properties explain why?
-- Queries the Discogs API for an artist's top 3 albums ranked by community "Haves," "Wants," and average rating, and sends results + bar charts directly to Discord
-- Queries the Spotify API for the same artist's top 3 albums by Spotify's popularity score (0–100) for cross-platform comparison
-- Pulls per-track audio features (danceability, energy, liveness, speechiness, valence) from the ReccoBeats API, averages them across an album, and visualizes results in Discord
-- Scrapes all physical and digital variants of a given album from Discogs (vinyl, LP, CD, etc.) and stores release metadata in a local SQLite database via `pandas.to_sql()`
-- Outputs all DataFrames as clean grid-formatted tables in Discord using `pandas.to_markdown()`
+### 🎤 [Grammy Rap Albums Discord Bot](https://github.com/fghlewis/Rap-Music-Discord-Bot)
+**Question:** What makes a Grammy-winning rap album distinctive — lyrically and sonically — and can those differences be made interactive and explorable?
+- Scrapes every Grammy-winning rap album (1996–2024) from Wikipedia and collects full track lyrics via the Genius API, storing everything in a structured JSON dataset
+- Performs sentiment analysis at the track and line level using NLTK's VADER, visualizing emotional arcs per song and per album directly in Discord
+- Analyzes word frequency across albums using spaCy tokenization, lemmatization, and stop word removal, returning a ranked bar chart of the top 30 words
+- Counts syllable complexity per album using a three-layer fallback system: CMU Pronouncing Dictionary → Pyphen hyphenation → vowel counting
+- Detects end-of-line rhyme schemes track-by-track using the `pronouncing` library, mapping patterns to letter notation (AABB, ABAB, etc.)
+- Pulls per-track audio features (danceability, energy, valence, tempo, loudness, etc.) from the ReccoBeats API and visualizes them as point plots in Discord
+- Includes a separate Altair notebook with interactive dropdown charts for exploring sentiment across all albums and tracks statically
 
 #### 🧰 Tools & Skills Used
-- **Languages:** Python, SQL
-- **APIs:** Discogs API, Spotify API, ReccoBeats API
-- **Data & Visualization:** pandas, NumPy, Seaborn, Matplotlib
+- **Languages:** Python
+- **APIs:** Genius API, Spotify API, ReccoBeats API
+- **Lyrical Analysis:** NLTK (VADER), spaCy, pronouncing, pyphen, lyricsgenius
+- **Data & Visualization:** pandas, NumPy, Seaborn, Matplotlib, Altair
 - **Bot Framework:** discord.py (async), discord.ext.commands
-- **Data Storage:** sqlite3, pandas `.to_sql()`
-- **Supporting Libraries:** os, asyncio, requests, python-dotenv
+- **Supporting Libraries:** os, asyncio, json, collections, python-dotenv
 
 ---
 
