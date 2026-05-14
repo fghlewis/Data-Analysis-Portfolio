@@ -1,6 +1,6 @@
 # 📊 George Lewis – Data Analysis Portfolio
 
-Hi! Welcome to my data analysis portfolio. I'm a Business Analytics major at the University of Colorado Boulder with a passion for using data to uncover insights that help businesses thrive. This portfolio showcases my personal projects that apply real-world datasets, visualizations, and statistical methods to solve interesting problems across music, environment, economics, and more.
+Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems major (minor in Information Science) at the University of Colorado Boulder with a goal of someday becoming a data Engineer! This portfolio showcases some various personal projects I've worked on over the past two years.
 
 ---
 ## 🔍 Projects
@@ -34,8 +34,28 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Analytics major at the
 - **Supporting Libaries**: os, datetime, time, asyncio, random
 
 ---
-### 🌎 Spreading Climate Change Awareness Through Pop Music
-Coming soon: Exploring what and how the pop music industry is raising awareness about climate change
+
+### Hip-Hop Discord Bot
+
+---
+
+## Information Retrieval System Designs (with Queries)
+
+### Structured Retrieval (Relational Database)
+
+---
+
+### Document-Oriented Retrieval (MongoDB)
+
+---
+
+### Search Engine Retrieval (Elasticsearch)
+
+---
+
+### Semantic Retrieval (Retrieval Augmented Generation)
+
+---
 
 ## 📬 Contact
 
