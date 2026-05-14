@@ -56,19 +56,19 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 
 ## 🖥️ Information Retrieval System Designs (with Queries)
 
-### Structured Retrieval (Relational Database)
+### 🗄️ [Structured Retrieval (Relational Database)](https://github.com/fghlewis/Relational-Database-Creation-and-Queries)
 
 ---
 
-### 📄 Document-Oriented Retrieval (MongoDB)
+### 📄 [Document-Oriented Retrieval (MongoDB)](https://github.com/fghlewis/MongoDB)
 
 ---
 
-### 🔎 Search Engine Retrieval (Elasticsearch)
+### 🔎 [Search Engine Retrieval (Elasticsearch)](https://github.com/fghlewis/Elasticsearch)
 
 ---
 
-### ⩬ Semantic Retrieval (Retrieval Augmented Generation)
+### ⩬ [Semantic Retrieval (Retrieval Augmented Generation)](https://github.com/fghlewis/Retrieval-Augmented-Generation)
 
 ---
 
@@ -76,6 +76,6 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/frederikgeorgelewis/) 
 
-Or reach out via email: contact.georgelewis@gmail.com
+Or reach out via email: frederikgeorge@gmail.com
 
 
