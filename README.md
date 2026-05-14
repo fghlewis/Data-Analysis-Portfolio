@@ -1,6 +1,6 @@
-# 📊 George Lewis – Data Analysis Portfolio
+# 📊 George Lewis – Data Analytics Portfolio
 
-Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems major (minor in Information Science) at the University of Colorado Boulder with a goal of someday becoming a data Engineer! This portfolio showcases some various personal projects I've worked on over the past two years.
+Hi! Welcome to my data analytics portfolio. I'm a Business Information Systems major (minor in Information Science) at the University of Colorado Boulder with a goal of someday becoming a data Engineer! This portfolio showcases some various personal projects I've worked on over the past two years.
 
 ---
 ## 🔍 Projects
