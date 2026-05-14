@@ -17,6 +17,24 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 
 ---
 
+### 🎵 [Discogs x Spotify Music Analysis Discord Bot](https://github.com/fghlewis/INFO3510-Project2)
+**Question:** Does Discogs community data accurately reflect what audiences are actually listening to, and can audio properties explain why?
+- Queries the Discogs API for an artist's top 3 albums ranked by community "Haves," "Wants," and average rating, and sends results + bar charts directly to Discord
+- Queries the Spotify API for the same artist's top 3 albums by Spotify's popularity score (0–100) for cross-platform comparison
+- Pulls per-track audio features (danceability, energy, liveness, speechiness, valence) from the ReccoBeats API, averages them across an album, and visualizes results in Discord
+- Scrapes all physical and digital variants of a given album from Discogs (vinyl, LP, CD, etc.) and stores release metadata in a local SQLite database via `pandas.to_sql()`
+- Outputs all DataFrames as clean grid-formatted tables in Discord using `pandas.to_markdown()`
+
+#### 🧰 Tools & Skills Used
+- **Languages:** Python, SQL
+- **APIs:** Discogs API, Spotify API, ReccoBeats API
+- **Data & Visualization:** pandas, NumPy, Seaborn, Matplotlib
+- **Bot Framework:** discord.py (async), discord.ext.commands
+- **Data Storage:** sqlite3, pandas `.to_sql()`
+- **Supporting Libraries:** os, asyncio, requests, python-dotenv
+
+---
+
 ### 📂 [Multi Account Web Scraper](https://github.com/fghlewis/Multi-Account-Web-Scraper)
 **Question:** How can we build a web scraper that logs into a website using different accounts and saves both the login info and the scraped data into a database?
 - Logs into a target website using rotating credentials pulled from a local SQL database
@@ -35,25 +53,21 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 
 ---
 
-### Hip-Hop Discord Bot
-
----
-
-## Information Retrieval System Designs (with Queries)
+## 🖥️ Information Retrieval System Designs (with Queries)
 
 ### Structured Retrieval (Relational Database)
 
 ---
 
-### Document-Oriented Retrieval (MongoDB)
+### 📄 Document-Oriented Retrieval (MongoDB)
 
 ---
 
-### Search Engine Retrieval (Elasticsearch)
+### 🔎 Search Engine Retrieval (Elasticsearch)
 
 ---
 
-### Semantic Retrieval (Retrieval Augmented Generation)
+### ⩬ Semantic Retrieval (Retrieval Augmented Generation)
 
 ---
 
