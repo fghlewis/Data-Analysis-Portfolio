@@ -58,19 +58,16 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 
 ### 🗄️ [Structured Retrieval (Relational Database)](https://github.com/fghlewis/Relational-Database-Creation-and-Queries)
 
----
-
 ### 📄 [Document-Oriented Retrieval (MongoDB)](https://github.com/fghlewis/MongoDB)
 
----
-
 ### 🔎 [Search Engine Retrieval (Elasticsearch)](https://github.com/fghlewis/Elasticsearch)
-
----
 
 ### ﹦ [Semantic Retrieval (Retrieval Augmented Generation)](https://github.com/fghlewis/Retrieval-Augmented-Generation)
 
 ---
+
+## 🕸️ [Web Scraping](https://github.com/fghlewis/Webscraping-Examples)
+- Click here to browse through the various types of webscraping tools I have used
 
 ## 📬 Contact
 
