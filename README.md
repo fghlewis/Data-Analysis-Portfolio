@@ -48,7 +48,7 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 #### 🧰 Tools & Skills Used
 - **Languages:** Python, SQL
 - **Data Storage:** pandas, sqlite3
-- **Encyrption and Security:**: Cryptography Fernet
+- **Encyrption and Security:** Cryptography Fernet
 - **Web Scraping**: BeautifulSoup (lxml parser), Playwright (async version)
 - **Supporting Libaries**: os, datetime, time, asyncio, random
 
@@ -68,7 +68,7 @@ Hi! Welcome to my data analysis portfolio. I'm a Business Information Systems ma
 
 ---
 
-### ⩬ [Semantic Retrieval (Retrieval Augmented Generation)](https://github.com/fghlewis/Retrieval-Augmented-Generation)
+### ﹦ [Semantic Retrieval (Retrieval Augmented Generation)](https://github.com/fghlewis/Retrieval-Augmented-Generation)
 
 ---
 
